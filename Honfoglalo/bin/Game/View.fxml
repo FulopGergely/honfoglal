@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="776.0" prefWidth="1126.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.Controller">
+   <children>
+      <Pane layoutX="14.0" layoutY="-1.0" prefHeight="73.0" prefWidth="1050.0" stylesheets="@../../bin/Game/application.css" />
+      <Pane layoutX="59.0" layoutY="72.0" prefHeight="673.0" prefWidth="1132.0">
+         <children>
+            <ImageView fx:id="area00" fitHeight="200.0" fitWidth="200.0" layoutX="130.0" layoutY="98.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/b00.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="205.0" layoutY="133.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/c3-00.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area01" fitHeight="200.0" fitWidth="200.0" layoutX="73.0" layoutY="186.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/r01.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area02" fitHeight="200.0" fitWidth="200.0" layoutX="90.0" layoutY="258.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w02.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area04" fitHeight="200.0" fitWidth="200.0" layoutX="164.0" layoutY="305.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w03.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area05" fitHeight="200.0" fitWidth="200.0" layoutX="178.0" layoutY="186.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w04.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area06" fitHeight="200.0" fitWidth="200.0" layoutX="263.0" layoutY="114.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w05.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area07" fitHeight="200.0" fitWidth="200.0" layoutX="273.0" layoutY="188.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w06.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area08" fitHeight="200.0" fitWidth="200.0" layoutX="273.0" layoutY="293.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w07.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area09" fitHeight="200.0" fitWidth="200.0" layoutX="242.0" layoutY="359.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w08.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area10" fitHeight="200.0" fitWidth="200.0" layoutX="373.0" layoutY="128.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w09.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area11" fitHeight="200.0" fitWidth="200.0" layoutX="376.0" layoutY="286.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w10.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area12" fitHeight="200.0" fitWidth="200.0" layoutX="385.0" layoutY="52.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w11.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area13" fitHeight="200.0" fitWidth="200.0" layoutX="457.0" layoutY="82.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w12.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area14" fitHeight="200.0" fitWidth="200.0" layoutX="477.0" layoutY="174.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w13.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area15" fitHeight="200.0" fitWidth="200.0" layoutX="462.0" layoutY="294.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w14.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area16" fitHeight="242.0" fitWidth="242.0" layoutX="535.0" layoutY="4.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w15.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area17" fitHeight="200.0" fitWidth="200.0" layoutX="601.0" layoutY="136.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w16.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area18" fitHeight="200.0" fitWidth="200.0" layoutX="554.0" layoutY="251.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w17.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="area19" fitHeight="200.0" fitWidth="200.0" layoutX="655.0" layoutY="43.0" styleClass="asd">
+               <image>
+                  <Image url="@../../bin/kep/w18.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button" layoutX="651.0" layoutY="578.0" mnemonicParsing="false" onMouseClicked="#asd" text="Button" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
